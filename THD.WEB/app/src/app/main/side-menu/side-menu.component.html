@@ -1,0 +1,42 @@
+<div class='logo'>
+    <img src="assets/resources/logo.svg" class="logo-image">
+</div>
+<div>
+    <div>
+        <div class='first-line'></div>
+        <div class='section-block'>
+            <span class='menu-title'>CURRENT SITUATION</span>
+        </div>
+        <div *ngFor='let item of menu.userRoutes'
+            [ngClass]="{'active-item-block':  currentRoute.includes(item.path), 'item-block': !currentRoute.includes(item.path)}"
+            [routerLink]="[item.path]">
+            <span
+                [ngClass]="{'active-thd-text': currentRoute.includes(item.path), 'thd-text': !currentRoute.includes(item.path)}">{{item.name}}</span>
+        </div>
+    </div>
+    <div *ngIf = "currentUserRoles.includes('SuperAdmin') || currentUserRoles.includes('Admin')">
+        <div class='second-line'></div>
+        <div class='section-block'>
+            <span class='menu-title'>OPTIMIZATION</span>
+        </div>
+        <div *ngFor='let item of menu.adminRoutes'
+            [ngClass]="{'active-item-block': currentRoute.includes(item.path), 'item-block': !currentRoute.includes(item.path)}"
+            [routerLink]="[item.path]">
+            <span
+                [ngClass]="{'active-thd-text': currentRoute.includes(item.path), 'thd-text': !currentRoute.includes(item.path)}">{{item.name}}</span>
+        </div>
+    </div>
+    <div *ngIf = "currentUserRoles.includes('SuperAdmin')">
+        <div *ngFor='let item of menu.superAdminRoute'
+            [ngClass]="{'active-item-block': currentRoute.includes(item.path), 'item-block': !currentRoute.includes(item.path)}"
+            [routerLink]="[item.path]">
+            <span
+                [ngClass]="{'active-thd-text': currentRoute.includes(item.path), 'thd-text': !currentRoute.includes(item.path)}">{{item.name}}</span>
+        </div>
+    </div>
+</div>
+<div class='futer'>
+    <span class='thd-text'>{{currentUserName}}</span>
+    <div class='logout-icon' (click)='logout()'>
+    </div>
+</div>

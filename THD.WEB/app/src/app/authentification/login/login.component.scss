@@ -1,0 +1,39 @@
+.thd-container {
+    display: flex;
+}
+
+.login-text {
+    position: absolute;
+    width: 98px;
+    height: 42px;
+    left: 55px;
+    top: 313px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: rgba(0, 0, 0, 0.84);
+}
+
+.login-container {
+    padding: 55px;
+    padding-top: 37vh;
+}
+
+.background {
+    display: inline;
+    flex: 1 auto;
+    background: #EAEAEA;
+    /* #C4C4C4 - Mid Grey 3 */
+    background: url(https://images8.alphacoders.com/879/thumb-1920-879934.jpg);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+.login-path {
+    width: 25vw;
+    height: 100vh;
+}

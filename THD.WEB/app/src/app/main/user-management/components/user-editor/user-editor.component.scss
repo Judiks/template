@@ -1,0 +1,26 @@
+.button-huge {
+  width: 9vw;
+  margin-right: 20px;
+  height: 32px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3vw;
+}
+
+select.ng-invalid.ng-touched,
+input.ng-invalid.ng-touched {
+  border: 2px solid red;
+}
+
+.error {
+  color: red;
+  font-size: 1.37vh;
+  margin-bottom: 5px;
+}
+
+.mat-form-field {
+  width: 100%;
+}

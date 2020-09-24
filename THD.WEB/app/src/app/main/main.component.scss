@@ -1,0 +1,25 @@
+.thd-container {
+    display: flex;
+}
+
+
+
+.components-path {
+    display: inline;
+    flex: 1 auto;
+}
+
+.side-menu-path {
+    width: 13vw;
+    position: fixed;
+    height: 100vh;
+    background: #FFFFFF;
+    border: 1px solid #E6EAEE;
+    box-sizing: border-box;
+}
+
+.used-component {
+    margin-left: 13vw;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,81 @@
+.logo {
+    margin-top: 3.91vh;
+    margin-left: 9.2%;
+    margin-right: 8.88%;
+}
+
+.logo-image {
+    max-width:100%; 
+    height:auto;
+}
+
+.menu-title {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.18vh;
+    line-height: 1.47vh;
+    font-size: 1.18vh;
+    padding: 0.755vw 1.51vw 0.755vw 1.51vw;
+    display: flex;
+    align-items: center;
+    color: #A55866;
+}
+
+.item-block {
+    cursor: pointer;
+    width: 100%;
+    height: 4.7vh;
+}
+.section-block {
+    width: 100%;
+    height: 4.7vh;
+}
+.item-block:hover {
+    background-color: #c2bdbf86;
+}
+.active-item-block:focus {
+    outline: 0 !important;
+}
+.item-block:focus {
+    outline: 0 !important;
+}
+.active-item-block {
+    cursor: pointer;
+    width: 100%;
+    height: 4.7vh;
+    background: #990033;
+}
+
+.first-line {
+    margin-top: 12.67vh;
+    height: 1px;
+    margin-left: 30px;
+    width: 9.9vw;
+    background: #E6EAEE;
+}
+
+.second-line {
+    margin-top: 7.63vh;
+    height: 1px;
+    margin-left: 30px;
+    width: 9.9vw;
+    background: #E6EAEE;
+}
+.logout-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 29px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5U9AkGGueN1T_Jcz_bpPMii56YbM7yzkx-52vGB-FwOCcTI92');
+    background-size: 30px;
+    position: absolute;
+    left: 9vw;
+    top: 1vh;
+}
+
+.futer {
+    display: flex;
+    position: absolute;
+    top: 95vh;
+}
+

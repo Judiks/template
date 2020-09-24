@@ -1,0 +1,200 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0px;
+}
+
+.thd-input {
+    /* #FFFFFF - White */
+    height: 3.53vh;
+    width: 100%;
+    background: #FFFFFF;
+    /* #D4D4D4 - Light Grey */
+
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 0.49vh 0.35vw 0.49vh 0.35vw;
+}
+
+.input-container {
+    margin: 2.45vh 0 2.45vh 0;
+}
+
+.thd-button-active {
+    background: #990033;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.85vw;
+    height: 2.75vh;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.thd-row {
+    height: 50px;
+    text-align: center;
+  }
+
+.thd-button {
+    background: #959595;
+    color: white;
+    border-radius: 5px;
+    height: 2.75vh;
+    font-size: 0.85vw;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.remove-button {
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+.thd-settings {
+    cursor: pointer;
+}
+
+.thd-button-container {
+    min-width: 8vw;
+    max-width: 25vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.thd-text {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.37vh;
+    line-height: 1.76vh;
+    display: flex;
+    align-items: center;
+    padding: 0.755vw 1.51vw 0.755vw 1.51vw;
+    color: #5B6779;
+}
+
+.active-thd-text {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.37vh;
+    line-height: 1.76vh;
+    display: flex; 
+    align-items: center;
+    padding: 0.755vw 1.51vw 0.755vw 1.51vw;
+    color: #FFFFFF;
+}
+
+.thd-header {
+    width: 86vw;
+    height: 7.26vh;
+}
+
+.thd-header-title {
+    padding-top: 1.18vw;
+    padding-left: 2.09vw;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.35vh;
+    line-height: 2.94vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #5B6779;
+}
+
+.thd-red-title {
+    width: 18.98vw;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.35vh;
+    line-height: 2.94vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #990033;
+}
+
+.thd-pluss {
+    cursor: pointer;
+    width: 1.53vw;
+    height: 1.53vh;
+    margin-left:  1.39vw;
+}
+
+.thd-flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.thd-item-title {
+    width: 13.9vw;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.76vh;
+    line-height: 2.25vh;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #5B6779;
+}
+
+.thd-checkbox-button {
+    cursor: pointer;
+}
+
+.thd-item-title {
+    padding: 1.96vh 8px 0.98vh;
+}
+
+.mat-checkbox-ripple .mat-ripple-element,.mat-checkbox-checked.mat-accent .mat-checkbox-background {
+    background-color: #990033 !important;
+}
+.thd-title {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.37vh;
+    line-height: 1.57vh;
+/* identical to box height */
+    color: #5B6779;
+}
+
+::-webkit-scrollbar {
+    height: 0.88vh;
+    width: 0.63vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b60e46; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #990033; 
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
+  

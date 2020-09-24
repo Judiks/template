@@ -1,0 +1,17 @@
+<div class='thd-container'>
+    <div class='login-path'>
+        <div class="login-container">
+            <span class='login-text'>Log in</span>
+            <div class="input-container">
+                <input class='thd-input' type="email" placeholder="Username" [(ngModel)]='loginRequest.email'>
+            </div>
+            <div class='input-container'>
+                <input class='thd-input' type="password" placeholder="Password" [(ngModel)]='loginRequest.password'>
+            </div>
+            <div class='button-container'>
+                <button (click)='onLogInClick()' class='thd-button-active'>Log in</button>
+            </div>
+        </div>
+    </div>
+    <div class='background'></div>
+</div>
